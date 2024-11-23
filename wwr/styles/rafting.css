@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #789aff; 
+    --secondary-color: #86b24f; 
+    --accent1-color: #ffe394; 
+    --accent2-color: #ffffff; 
+    --font-heading: 'Oswald', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-text);
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+h1, h2 {
+    font-family: var(--font-heading);
+    color: var(--secondary-color);
+}
+
+p {
+    font-family: var(--font-text);
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color: var(--accent2-color);
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    position: relative;
+   /* background-image: url('../images/rafting-hero.jpg');  Path to hero image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent2-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    position: absolute;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-left: 1rem;
+}
+
+
+section {
+    margin: 2rem 0;
+}
+
+section h2 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.rafting-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.rafting-gallery img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.rafting-gallery img:hover {
+    transform: scale(1.05); 
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
