@@ -61,7 +61,7 @@ nav a:hover {
 
 .hero {
     position: relative;
-   /* background-image: url('../images/rafting-hero.jpg');  Path to hero image */
+    background-image: url('images/hero.jpg'); 
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -83,7 +83,7 @@ nav a:hover {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 1rem;
     border-radius: 8px;
     max-width: 300px;
