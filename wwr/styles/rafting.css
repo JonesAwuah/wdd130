@@ -34,13 +34,15 @@ p {
 }
 
 
-header {
+/*header {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     padding: 1rem;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
-
+ 
 header img {
     max-width: 150px;
     height: auto;
@@ -52,12 +54,43 @@ nav a {
     margin: 0 1rem;
     text-decoration: none;
     font-weight: bold;
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
+*/
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004466;
+    color: white;
+}
+.logo img {
+    max-width: 100px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav ul li a:hover {
+    text-decoration: underline;
+}
 
 .hero {
     position: relative;
