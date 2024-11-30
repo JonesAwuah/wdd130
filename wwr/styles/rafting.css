@@ -121,7 +121,7 @@ header {
     text-align: center;
 }
 
-/*
+
 .hero article {
     position: absolute;
     bottom: 20px;
@@ -138,36 +138,9 @@ header {
     height: auto;
     margin-left: 1rem;
 }
-*/
-.hero article {
-    display: flex; /* Enables horizontal layout */
-    align-items: center; /* Aligns items vertically */
-    justify-content: space-between; /* Ensures space between image and text */
-    margin-top: 20px;
-}
-
-.hero article img {
-    width: 150px; 
-    height: auto; 
-    border-radius: 8px; 
-    margin-left: 20px;
-}
-
-.hero article .content {
-    max-width: 70%; 
-    text-align: left;
-}
-
-.hero article h4 {
-    margin: 0 0 10px;
-    font-size: 1.5rem;
-    color: var(--secondary-color); 
-}
-
-.hero article p {
+.hero article p{
     font-size: 1rem;
     line-height: 1.5;
-    color: #333; /* Text color */
 }
 
 .history {
