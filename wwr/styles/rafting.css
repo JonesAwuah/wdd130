@@ -129,6 +129,23 @@ header {
     margin-left: 1rem;
 }
 
+.history {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.history h2 {
+    color: #004466;
+}
+
+.history p {
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 section {
     margin: 2rem 0;
@@ -140,17 +157,25 @@ section h2 {
 }
 
 .rafting-gallery {
-    display: flex;
+    /*display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-around;
+    */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 }
 
 .rafting-gallery img {
-    max-width: 200px;
+    /*max-width: 200px;
     height: auto;
     border-radius: 8px;
-    transition: transform 0.3s ease;
+    */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .rafting-gallery img:hover {
@@ -164,6 +189,12 @@ footer {
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
 }
 
 footer p {
@@ -171,4 +202,20 @@ footer p {
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
+}
+
+sociallinks
+footer .sociallinks {
+    display: flex;
+    gap: 10px;
+}
+
+footer .sociallinks img {
+    width: 24px;
+    height: 24px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
