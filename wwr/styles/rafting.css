@@ -8,7 +8,6 @@
 }
 
 body {
-    font-family: var(--font-text);
     margin: 0;
     padding: 0;
     color: var(--primary-color);
@@ -18,12 +17,10 @@ body {
 }
 
 h1, h2 {
-    font-family: var(--font-heading);
     color: var(--secondary-color);
 }
 
 p {
-    font-family: var(--font-text);
     color: var(--primary-color);
     line-height: 1.6;
 }
