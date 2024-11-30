@@ -126,8 +126,8 @@ header {
 
 .hero article img {
     float: right;
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 200px;
     margin-left: 1rem;
 }
 .hero article p{
